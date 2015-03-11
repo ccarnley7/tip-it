@@ -1,26 +1,65 @@
 { "Rivers": {
     "Provo River" : {
-      "Sections" : {
-
+      "sections" : {
+        "Provo River, Lower": {
+          "report": {
+            "date": "2015-03-02",
+            "text": "Please remember: The Provo River below I-15 is <em>closed to angling from March 1 until May 2</em>. Continue to use big attractor nymphs and midge nymphs <em>without</em> beads. Midge hatches are still occurring on the warmer days, especially at midday. Sow bugs and orange scuds are working in sizes 16 and 18. Watch for dark-colored midges and buffalo midges. Water levels are ranging from 100 cubic feet per second (cfs) below Deer Creek to 79 cfs near Harbor Drive"
+          },
+          "current rating": "Good", // or should this be numeric and we can render in text, color, image, etc.
+          "location": {
+            "lat": "...", // how should we handle a range of lat-lon points
+            "lon": "...",
+            "description": "Provo Canyon to Deer Creek Reservoir"
+          },
+          "directions": "From I-15 take 800 North exit in Orem and follow to Provo Canyon",
+          "size": "varies",
+          "type": "Blue Ribbon",
+          "elevation": "",
+          "hours": "",
+          "species": ["Brown Trout", "Mountain Whitefish", "Rainbow Trout"],
+          "amenities": "",
+          "handicap-access": "N"
+        },
+        "Provo River, Middle": {
+          "report": {
+            "date": "2015-03-02",
+            "text": "You'll find great midge fishing right now. Try midge nymphs without beads or use big attractor nymphs. There continues to be an incredible midge hatch at midday, and it's becoming pretty consistent. So, if you're fishing at midday, nymphs (size 22 and smaller) are a good choice. Watch for dark-colored midges and buffalo midges. Water flows are near 135 cfs, with flows higher near the Jordanelle release and Charleston areas (around 152 cfs)."
+          },
+          "current rating": "Good", // or should this be numeric and we can render in text, color, image, etc.
+          "location": {
+            "lat": "...", // how should we handle a range of lat-lon points
+            "lon": "...",
+            "description": "Heber Valley"
+          },
+          "directions": "Between Deer Creek and Jordanelle reservoirs",
+          "size": "varies",
+          "type": "Blue Ribbon",
+          "elevation": "",
+          "hours": "",
+          "species": ["Brown Trout", "Mountain Whitefish", "Rainbow Trout"],
+          "amenities": "",
+          "handicap-access": "N"
+        }
       }
     },
     "Strawberry River" : {
-      "Sections": {
+      "sections": {
 
       }
     },
     "Weber River": {
-      "Sections": {
+      "sections": {
 
       }
     },
     "American Fork River": {
-      "Sections": {
+      "sections": {
 
       }
     },
     "Current Creek": {
-      "Sections": {
+      "sections": {
 
       }
     }
